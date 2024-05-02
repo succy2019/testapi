@@ -1,7 +1,9 @@
 # testapi end points and payloads
 
+
 **REGISTRATION PAYLOAOD**
-Reg End POint:  https://api.ousttestapi.online/public/api/v1/register 
+Reg End POint:  
+https://api.ousttestapi.online/public/api/v1/register 
             **Reg payload**
         1. firstname
         2. lastname
