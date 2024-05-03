@@ -32,6 +32,8 @@ endpoint to verify otp
 
 
 
+endpoint to verify otp
+
       *End Point:  /public/login*
             response 200
            req: {  email,
