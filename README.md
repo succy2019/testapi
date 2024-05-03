@@ -1,9 +1,9 @@
 # testapi end points and payloads
 
-URL https://api.ousttestapi.online/public/
+URL https://api.ousttestapi.online/
 
-**REGISTRATION PAYLOAOD**
-*Response 201
+
+*Response code 200
 
 *End Point:  /public/register*
             
@@ -14,7 +14,7 @@ URL https://api.ousttestapi.online/public/
            }
 
            res: {
-           userID
+           	userID
                 }
 
 endpoint to verify otp
@@ -30,13 +30,17 @@ endpoint to verify otp
            message: Successs
                 }
 
-endpoint for Login
-https://api.ousttestapi.online/public/api/v1/login
-      **Reg payload**
-        1. email
-     
-        //
-        Response: token
+
+
+      *End Point:  /public/login*
+            response 200
+           req: {  email,
+                   
+           }
+
+           res: {
+           	token
+                }
 
 
 
