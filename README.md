@@ -3,7 +3,7 @@
 URL https://api.ousttestapi.online/public/
 
 **REGISTRATION PAYLOAOD**
-Response 201
+*Response 201
 
 *End Point:  /public/register*
             
@@ -18,7 +18,7 @@ Response 201
                 }
 
 endpoint to verify otp
-https://api.ousttestapi.online/public/api/v1/otp
+
 
       *End Point:  /public/otp*
             
