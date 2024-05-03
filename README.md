@@ -32,7 +32,7 @@ endpoint to verify otp
 
 
 
-endpoint to verify otp
+endpoint to login
 
       *End Point:  /public/login*
             response 200
