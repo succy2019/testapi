@@ -3,9 +3,9 @@
 URL https://api.ousttestapi.online/public/
 
 **REGISTRATION PAYLOAOD**
+Response 201
 
-
-*End Point:  /api/v1/register*
+*End Point:  /public/register*
             
            req: {  firstname,
                    lastname,
@@ -13,18 +13,22 @@ URL https://api.ousttestapi.online/public/
                    phone
            }
 
-           res: {userID,
-                token}
+           res: {
+           userID
+                }
 
 endpoint to verify otp
 https://api.ousttestapi.online/public/api/v1/otp
 
-      **Otp payload**
-        1. otpcode
-      
-        //
-        Response: message : success
+      *End Point:  /public/otp*
+            
+           req: {  otpcode,
+                   
+           }
 
+           res: {
+           message: Successs
+                }
 
 endpoint for Login
 https://api.ousttestapi.online/public/api/v1/login
