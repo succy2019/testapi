@@ -1,48 +1,56 @@
 # testapi end points and payloads
 
-URL https://api.ousttestapi.online/
+**URL https://api.ousttestapi.online/**
 
+**Account Registration**
 
-*Response code 200
+*Endpoint:  /public/register*
 
-*End Point:  /public/register*
-            
-           req: {  firstname,
-                   lastname,
-                   email,
-                   phone
-           }
+_request_ 
 
-           res: {
+            {firstname,
+             lastname,
+             email,
+             phone}
+_response_
+
+           {
            	userID
-                }
-
-endpoint to verify otp
+            }
 
 
-      *End Point:  /public/otp*
-            
-           req: {  otpcode,
-                   
+**Verify otp**
+
+
+*Endpoint:  /public/otp*
+
+_request_ 
+
+            { 
+            otpcode             
+            }
+_response_     
+
+           { Successs
+            }
+
+
+
+**Login**
+
+*End Point:  /public/login*
+
+_response_ 
+
+           
+           {  email
            }
+           
+_response_  
 
-           res: {
-           message: Successs
-                }
-
-
-
-endpoint to login
-
-      *End Point:  /public/login*
-            response 200
-           req: {  email,
-                   
-           }
-
-           res: {
-           	token
-                }
+           {
+           	userId
+            }
 
 
 
