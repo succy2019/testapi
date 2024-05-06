@@ -37,21 +37,7 @@ _response_
 
 
 
-**Login**
 
-*End Point:  /public/login*
-
-_response_ 
-
-           
-           {  email
-           }
-           
-_response_  
-
-           {
-           	userId
-            }
 
 
 
