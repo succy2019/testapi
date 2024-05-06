@@ -19,19 +19,20 @@ _response_
             }
 
 
-**Verify otp**
+**Send otp to email**
 
 
-*Endpoint:  /public/otp*
+*Endpoint:  /checkemail*
 
 _request_ 
 
             { 
-            otpcode             
+            email             
             }
 _response_     
 
-           { Successs
+           { 
+           sucess
             }
 
 
