@@ -22,7 +22,7 @@ _response_
 **Send otp to email**
 
 
-*Endpoint:  /checkemail*
+*Endpoint:  /sendotp*
 
 _request_ 
 
