@@ -36,6 +36,51 @@ _response_
             }
 
 
+*Endpoint:  /login*
+
+_request_ 
+
+            {
+             email,
+             }
+_response_
+
+           {
+           	userID
+            pin
+            }
+
+
+            *Endpoint:  /SessionLog*
+
+_request_ 
+
+            {
+             UserId,
+             pin
+             }
+_response_
+
+           {
+           Success
+            }
+
+
+
+                   *Endpoint:  /SessionStart*
+
+_request_ 
+
+            {
+             UserId,
+             pin
+             }
+_response_
+
+           {
+           Session
+           Token
+            }
 
 
 
