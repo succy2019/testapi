@@ -36,8 +36,8 @@ _response_
             }
 
 
-*Endpoint:  /login*
 
+*Endpoint:  /login*
 _request_ 
 
             {
@@ -51,8 +51,8 @@ _response_
             }
 
 
-            *Endpoint:  /SessionLog*
-
+            
+*Endpoint:  /SessionLog*
 _request_ 
 
             {
@@ -67,8 +67,8 @@ _response_
 
 
 
-                   *Endpoint:  /SessionStart*
-
+                  
+ *Endpoint:  /SessionStart*
 _request_ 
 
             {
