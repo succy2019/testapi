@@ -83,6 +83,34 @@ _response_
             }
 
 
+ *Endpoint:  /pin*
+_request_ 
+
+            {
+             UserId,
+             pin
+             }
+_response_
+
+           {
+          userId
+            }
+
+
+
+ *Endpoint:  /Sendotp*
+_request_ 
+
+            {
+             UserId,
+             pin
+             }
+_response_
+
+           {
+          userId
+            }
+
 
 
 
